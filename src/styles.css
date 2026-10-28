@@ -1,0 +1,59 @@
+@import "tailwindcss" source("../");
+
+@theme {
+  --color-navy: #1b4f9c;
+  --color-navy-deep: #103b7a;
+  --color-glacier: #2b82e8;
+  --color-lagoon: #5bbcf0;
+  --color-ice: #ecf5fe;
+  --color-mist: #f6f9fd;
+  --color-whatsapp: #25d366;
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-sans: 'Manrope', system-ui, -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  color: var(--color-navy-deep);
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Topographic contour lines used as a subtle section texture */
+.topo {
+  background-image:
+    radial-gradient(circle at 20% 30%, transparent 0 38px, rgb(31 111 214 / 0.07) 39px 40px, transparent 41px 78px, rgb(31 111 214 / 0.06) 79px 80px, transparent 81px 118px, rgb(31 111 214 / 0.05) 119px 120px, transparent 121px),
+    radial-gradient(circle at 80% 70%, transparent 0 58px, rgb(31 111 214 / 0.06) 59px 60px, transparent 61px 108px, rgb(31 111 214 / 0.05) 109px 110px, transparent 111px);
+  background-size: 420px 420px;
+}
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(18px); }
+  to { opacity: 1; transform: none; }
+}
+.rise { animation: rise 0.8s cubic-bezier(0.2, 0.7, 0.2, 1) both; }
+
+@keyframes pulse-ring {
+  0% { transform: scale(1); opacity: 0.55; }
+  100% { transform: scale(1.7); opacity: 0; }
+}
+.pulse-ring::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 9999px;
+  background: var(--color-whatsapp);
+  animation: pulse-ring 2.2s ease-out infinite;
+  z-index: -1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rise, .pulse-ring::before { animation: none; }
+  html { scroll-behavior: auto; }
+}
