@@ -16,7 +16,7 @@ const structuredData = {
   image: ogImage,
   description: siteDescription,
   logo: `${SITE_URL}/img/logo.png`,
-  telephone: '+56934363158',
+  telephone: '+56971382927',
   sameAs: [PARENT_URL, WHATSAPP_LINK],
   address: {
     '@type': 'PostalAddress',
