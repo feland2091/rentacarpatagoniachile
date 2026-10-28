@@ -13,6 +13,7 @@ export type Lang = (typeof LANGS)[number]['code']
 const es = {
   nav: { fleet: 'Flota', locations: 'Retiro y entrega', routes: 'Rutas', faq: 'Preguntas', contact: 'Contacto', book: 'Reservar' },
   hero: {
+    welcome: '¡Bienvenido a Rentacar Patagonia!',
     eyebrow: 'Puerto Natales · Patagonia chilena',
     title: 'Arriendo de autos en Puerto Natales',
     accent: 'para recorrer Torres del Paine',
@@ -119,6 +120,7 @@ export type Dict = typeof es
 const en: Dict = {
   nav: { fleet: 'Fleet', locations: 'Pick-up & drop-off', routes: 'Routes', faq: 'FAQ', contact: 'Contact', book: 'Book' },
   hero: {
+    welcome: 'Welcome to Rentacar Patagonia!',
     eyebrow: 'Puerto Natales · Chilean Patagonia',
     title: 'Car rental in Puerto Natales',
     accent: 'to explore Torres del Paine',
@@ -223,6 +225,7 @@ const en: Dict = {
 const fr: Dict = {
   nav: { fleet: 'Flotte', locations: 'Prise en charge', routes: 'Itinéraires', faq: 'FAQ', contact: 'Contact', book: 'Réserver' },
   hero: {
+    welcome: 'Bienvenue chez Rentacar Patagonia !',
     eyebrow: 'Puerto Natales · Patagonie chilienne',
     title: 'Location de voitures à Puerto Natales',
     accent: 'pour explorer Torres del Paine',
@@ -327,6 +330,7 @@ const fr: Dict = {
 const pt: Dict = {
   nav: { fleet: 'Frota', locations: 'Retirada e entrega', routes: 'Roteiros', faq: 'Perguntas', contact: 'Contato', book: 'Reservar' },
   hero: {
+    welcome: 'Bem-vindo à Rentacar Patagonia!',
     eyebrow: 'Puerto Natales · Patagônia chilena',
     title: 'Aluguel de carros em Puerto Natales',
     accent: 'para conhecer Torres del Paine',
@@ -431,6 +435,7 @@ const pt: Dict = {
 const zh: Dict = {
   nav: { fleet: '车队', locations: '取还车地点', routes: '自驾路线', faq: '常见问题', contact: '联系', book: '预订' },
   hero: {
+    welcome: '欢迎来到 Rentacar Patagonia！',
     eyebrow: '纳塔莱斯港 · 智利巴塔哥尼亚',
     title: '纳塔莱斯港租车',
     accent: '自驾畅游百内国家公园',

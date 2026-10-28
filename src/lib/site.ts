@@ -1,8 +1,8 @@
 // Single source of truth for business details shown on the landing page.
 
-// Business WhatsApp (+56 9 3436 3158), international format without "+".
+// Business WhatsApp (+56 9 7138 2927), international format without "+".
 // With a phone number set, booking requests open WhatsApp with the message pre-filled.
-export const WHATSAPP_PHONE = '56934363158'
+export const WHATSAPP_PHONE = '56971382927'
 export const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_PHONE}`
 
 export function whatsappUrl(message?: string) {

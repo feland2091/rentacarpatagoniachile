@@ -96,6 +96,7 @@ function Hero({ onCopied }: { onCopied: () => void }) {
 
       <div className="mx-auto grid min-h-[100svh] max-w-7xl items-center gap-10 px-5 pb-16 pt-28 lg:grid-cols-[1.25fr_0.85fr] lg:pt-24">
         <div className="rise max-w-2xl text-white">
+          <p className="mb-5 font-display text-2xl font-medium text-lagoon md:text-3xl">{t.hero.welcome}</p>
           <p className="inline-flex items-center gap-2 rounded-full border border-white/25 bg-white/10 px-3.5 py-1.5 text-xs font-bold uppercase tracking-[0.2em] backdrop-blur">
             <MapPin className="size-3.5" aria-hidden="true" /> {t.hero.eyebrow}
           </p>
