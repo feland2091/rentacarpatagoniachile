@@ -105,6 +105,12 @@ const es = {
     sub: 'Cuéntanos tus fechas y te confirmamos disponibilidad por WhatsApp.',
     button: 'Reservar por WhatsApp',
   },
+  parentBanner: {
+    eyebrow: 'Sitio web oficial',
+    title: 'Reserva online en rentacarpatagonia.com',
+    sub: 'Nuestro sitio principal tiene la flota completa, disponibilidad en tiempo real y reservas online.',
+    button: 'Ir a rentacarpatagonia.com',
+  },
   footer: {
     tagline: 'Arriendo de autos en Puerto Natales y Punta Arenas, Patagonia chilena.',
     maps: 'Ver en Google Maps',
@@ -212,6 +218,12 @@ const en: Dict = {
     sub: 'Tell us your dates and we will confirm availability on WhatsApp.',
     button: 'Book on WhatsApp',
   },
+  parentBanner: {
+    eyebrow: 'Official website',
+    title: 'Book online at rentacarpatagonia.com',
+    sub: 'Our main website has the full fleet, real-time availability and online booking.',
+    button: 'Go to rentacarpatagonia.com',
+  },
   footer: {
     tagline: 'Car rental in Puerto Natales and Punta Arenas, Chilean Patagonia.',
     maps: 'View on Google Maps',
@@ -316,6 +328,12 @@ const fr: Dict = {
     title: 'Prêt à explorer le bout du monde ?',
     sub: 'Indiquez-nous vos dates et nous confirmons la disponibilité sur WhatsApp.',
     button: 'Réserver sur WhatsApp',
+  },
+  parentBanner: {
+    eyebrow: 'Site officiel',
+    title: 'Réservez en ligne sur rentacarpatagonia.com',
+    sub: 'Notre site principal présente toute la flotte, la disponibilité en temps réel et la réservation en ligne.',
+    button: 'Aller sur rentacarpatagonia.com',
   },
   footer: {
     tagline: 'Location de voitures à Puerto Natales et Punta Arenas, Patagonie chilienne.',
@@ -422,6 +440,12 @@ const pt: Dict = {
     sub: 'Conte suas datas e confirmamos a disponibilidade pelo WhatsApp.',
     button: 'Reservar pelo WhatsApp',
   },
+  parentBanner: {
+    eyebrow: 'Site oficial',
+    title: 'Reserve online em rentacarpatagonia.com',
+    sub: 'Nosso site principal tem a frota completa, disponibilidade em tempo real e reservas online.',
+    button: 'Ir para rentacarpatagonia.com',
+  },
   footer: {
     tagline: 'Aluguel de carros em Puerto Natales e Punta Arenas, Patagônia chilena.',
     maps: 'Ver no Google Maps',
@@ -526,6 +550,12 @@ const zh: Dict = {
     title: '准备好探索世界尽头了吗？',
     sub: '告诉我们您的日期，我们将通过 WhatsApp 确认车辆。',
     button: '通过 WhatsApp 预订',
+  },
+  parentBanner: {
+    eyebrow: '官方网站',
+    title: '在 rentacarpatagonia.com 在线预订',
+    sub: '我们的主站提供完整车队、实时空车查询和在线预订。',
+    button: '前往 rentacarpatagonia.com',
   },
   footer: {
     tagline: '智利巴塔哥尼亚纳塔莱斯港与蓬塔阿雷纳斯租车。',

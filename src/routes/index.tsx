@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { createFileRoute } from '@tanstack/react-router'
 import {
-  ArrowRight, BusFront, Check, ChevronDown, Clock, Fuel, Gauge, Headset, Infinity as InfinityIcon,
+  ArrowRight, BusFront, ExternalLink, Globe, Check, ChevronDown, Clock, Fuel, Gauge, Headset, Infinity as InfinityIcon,
   Mail, MapPin, Mountain, PlaneLanding, ShieldCheck, Star, Users,
 } from 'lucide-react'
 import { Header } from '@/components/Header'
@@ -44,6 +44,7 @@ function Landing() {
       <main>
         <Hero onCopied={showCopied} />
         <TrustBar />
+        <ParentBanner />
         <Fleet onCopied={showCopied} onInquire={setInquiry} />
         <Locations />
         <Routes />
@@ -148,6 +149,52 @@ function TrustBar() {
           </div>
         ))}
       </div>
+    </section>
+  )
+}
+
+function ParentBanner() {
+  const { t } = useI18n()
+  return (
+    <section aria-labelledby="parent-banner" className="bg-white px-5 py-12">
+      <a
+        href={PARENT_URL}
+        target="_blank"
+        rel="noopener"
+        className="group relative isolate mx-auto flex max-w-7xl flex-col gap-6 overflow-hidden rounded-[2rem] bg-navy-deep px-7 py-10 text-white shadow-[0_24px_50px_-24px_rgb(10_42_94/0.5)] md:flex-row md:items-center md:justify-between md:px-12 md:py-12"
+      >
+        <img
+          src={img('road.png', 1400)}
+          srcSet={`${img('road.png', 800)} 800w, ${img('road.png', 1400)} 1400w`}
+          sizes="(min-width: 1280px) 1280px, 100vw"
+          alt=""
+          loading="lazy"
+          className="absolute inset-0 -z-10 size-full object-cover transition duration-700 group-hover:scale-105"
+        />
+        <div className="absolute inset-0 -z-10 bg-gradient-to-r from-navy-deep/95 via-navy/85 to-glacier/50" />
+        <div className="flex items-center gap-5">
+          <img
+            src={img('logo-icon.png', 160)}
+            alt=""
+            width={80}
+            height={80}
+            loading="lazy"
+            className="hidden size-20 shrink-0 rounded-2xl bg-white p-2.5 sm:block"
+          />
+          <div>
+            <p className="flex items-center gap-2 text-xs font-bold uppercase tracking-[0.25em] text-lagoon">
+              <Globe className="size-3.5" aria-hidden="true" /> {t.parentBanner.eyebrow}
+            </p>
+            <h2 id="parent-banner" className="mt-2 font-display text-3xl font-semibold leading-tight md:text-4xl">
+              {t.parentBanner.title}
+            </h2>
+            <p className="mt-2 max-w-xl text-white/80">{t.parentBanner.sub}</p>
+          </div>
+        </div>
+        <span className="inline-flex shrink-0 items-center justify-center gap-2 self-start rounded-full bg-white px-6 py-3.5 font-bold text-navy transition group-hover:bg-ice md:self-auto">
+          {t.parentBanner.button} <ExternalLink className="size-4" aria-hidden="true" />
+        </span>
+      </a>
     </section>
   )
 }
