@@ -16,7 +16,7 @@ Single-page landing site for **Rent a Car Patagonia Chile** (rentacarpatagoniach
 
 - Fleet categories are Sedán, Hatchback, SUV, 4x4 and 7 pasajeros. The business has no "city car" category; don't reintroduce it.
 - Vehicle inquiries use the Netlify Form `contacto-vehiculos` (skeleton in `public/__forms.html`; keep its fields in sync with `ContactForm`). Email notifications to info@rentacarpatagonia.com are configured in the Netlify UI, not in code.
-- No other backend or persistence: bookings go to WhatsApp +56 9 7138 2927 (`WHATSAPP_PHONE` in `site.ts`), opened as `wa.me/<phone>?text=` with the message pre-filled. If the phone is cleared, `openWhatsApp` falls back to copying the message and showing a toast.
+- No other backend or persistence: bookings go to WhatsApp +56 9 2089 3939 (`WHATSAPP_PHONE` in `site.ts`), opened as `wa.me/<phone>?text=` with the message pre-filled. If the phone is cleared, `openWhatsApp` falls back to copying the message and showing a toast.
 - Logo: `public/img/logo.png` (official, from rentacarpatagonia.com; dark navy on transparent), always shown on a white chip so it reads over the hero and footer. `logo-icon.png` is the square icon.
 - Distances on the routes section are approximate. Don't add prices, deposits or legal terms without the owner confirming them.
 - Use the existing Tailwind theme colors (blue/white palette) for any new section.
