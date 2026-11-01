@@ -1,6 +1,6 @@
 # AGENTS.md
 
-Single-page landing site for **Rent a Car Patagonia Chile** (rentacarpatagoniachile.cl), car rental in Puerto Natales. The parent brand site is rentacarpatagonia.com.
+Single-page landing site for **Rent a Car Patagonia Chile** (rentarpatagoniachile.cl), car rental in Puerto Natales. The parent brand site is rentacarpatagonia.com.
 
 ## Architecture
 

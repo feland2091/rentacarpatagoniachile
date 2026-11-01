@@ -16,7 +16,7 @@ export function whatsappUrl(message?: string) {
 export const CONTACT_EMAIL = 'info@rentacarpatagonia.com'
 export const CONTACT_FORM_NAME = 'contacto-vehiculos'
 
-export const SITE_URL = 'https://rentacarpatagoniachile.cl'
+export const SITE_URL = 'https://rentarpatagoniachile.cl'
 export const PARENT_URL = 'https://rentacarpatagonia.com'
 export const ADDRESS = 'Magallanes 258, Puerto Natales, Chile'
 export const MAPS_URL =
