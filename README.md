@@ -1,4 +1,4 @@
-# Rent a Car Patagonia Chile — rentacarpatagoniachile.cl
+# Rent a Car Patagonia Chile — rentarpatagoniachile.cl
 
 Landing page for car rental in Puerto Natales (Chilean Patagonia), a satellite site of [rentacarpatagonia.com](https://rentacarpatagonia.com). The page is built for local SEO ("arriendo de autos Puerto Natales", "rent a car Torres del Paine") and sends every booking to WhatsApp.
 
