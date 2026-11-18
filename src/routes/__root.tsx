@@ -27,7 +27,11 @@ const structuredData = {
     addressCountry: 'CL',
   },
   areaServed: ['Puerto Natales', 'Torres del Paine', 'Punta Arenas'],
-  aggregateRating: { '@type': 'AggregateRating', ratingValue: RATING.score, reviewCount: RATING.count },
+  aggregateRating: {
+  '@type': 'AggregateRating',
+  ratingValue: RATING.score,
+  reviewCount: RATING.count
+},
   openingHours: 'Mo-Su 00:00-23:59',
   makesOffer: FLEET.map((v) => ({
     '@type': 'Offer',
