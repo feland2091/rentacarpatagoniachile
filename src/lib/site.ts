@@ -36,17 +36,18 @@ export type Vehicle = {
   photo: string
 }
 
+// Mirrors the "Moderna Flota de Vehículos" section of rentacarpatagonia.com (same order).
 export const FLEET: Vehicle[] = [
-  { name: 'KIA Sportage 4x4', engine: '2.0', transmission: 'auto', seats: 5, fuel: 'diesel', category: '4x4', photo: 'fleet/kia-sportage.jpg' },
-  { name: 'New Subaru XV 4WD', engine: '2.0', transmission: 'auto', seats: 4, fuel: 'gasoline', category: '4x4', photo: 'fleet/subaru-xv.jpg' },
+  { name: 'Kia Sonet', engine: '1.5', transmission: 'auto', seats: 4, fuel: 'gasoline', category: 'suv', photo: 'fleet/kia-sonet.jpg' },
+  { name: 'Suzuki Dzire', engine: '1.2', transmission: 'auto', seats: 4, fuel: 'gasoline', category: 'sedan', photo: 'fleet/suzuki-dzire-silver.jpg' },
+  { name: 'Changan CS35', engine: '1.5', transmission: 'auto', seats: 5, fuel: 'gasoline', category: 'suv', photo: 'fleet/changan-cs35-plus.jpg' },
+  { name: 'Toyota Yaris Cross', engine: '1.6', transmission: 'auto', seats: 5, fuel: 'gasoline', category: 'suv', photo: 'fleet/toyota-yaris-cross.jpg' },
   { name: 'Hyundai Creta', engine: '1.5', transmission: 'auto', seats: 5, fuel: 'gasoline', category: 'suv', photo: 'fleet/hyundai-creta.jpg' },
-  { name: 'Changan CS35 Plus', engine: '1.5', transmission: 'auto', seats: 5, fuel: 'gasoline', category: 'suv', photo: 'fleet/changan-cs35-plus.jpg' },
-  { name: 'Changan CS35', engine: '1.6', transmission: 'manual', seats: 5, fuel: 'gasoline', category: 'suv', photo: 'fleet/changan-cs35.jpg' },
+  { name: 'New Subaru XV 4WD', engine: '2.0', transmission: 'auto', seats: 4, fuel: 'gasoline', category: '4x4', photo: 'fleet/subaru-xv.jpg' },
   { name: 'Suzuki XL7', engine: '1.5', transmission: 'manual', seats: 7, fuel: 'gasoline', category: 'family', photo: 'fleet/suzuki-xl7.jpg' },
   { name: 'Suzuki Baleno', engine: '1.5', transmission: 'auto', seats: 5, fuel: 'gasoline', category: 'hatchback', photo: 'fleet/suzuki-baleno.jpg' },
+  { name: 'New Hyundai Creta', engine: '1.5', transmission: 'auto', seats: 5, fuel: 'gasoline', category: 'suv', photo: 'fleet/new-hyundai-creta.jpg' },
   { name: 'Changan Alsvin', engine: '1.5', transmission: 'auto', seats: 5, fuel: 'gasoline', category: 'sedan', photo: 'fleet/changan-alsvin.jpg' },
-  { name: 'Suzuki Dzire', engine: '1.2', transmission: 'auto', seats: 4, fuel: 'gasoline', category: 'sedan', photo: 'fleet/suzuki-dzire-silver.jpg' },
-  { name: 'Suzuki Dzire', engine: '1.2', transmission: 'manual', seats: 4, fuel: 'gasoline', category: 'sedan', photo: 'fleet/suzuki-dzire.jpg' },
   { name: 'Suzuki Celerio', engine: '1.0', transmission: 'auto', seats: 3, fuel: 'gasoline', category: 'hatchback', photo: 'fleet/suzuki-celerio.jpg' },
   { name: 'Suzuki S-Presso', engine: '1.0', transmission: 'auto', seats: 3, fuel: 'gasoline', category: 'hatchback', photo: 'fleet/suzuki-s-presso.jpg' },
 ]
