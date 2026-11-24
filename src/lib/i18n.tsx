@@ -111,6 +111,12 @@ const es = {
     sub: 'Nuestro sitio principal tiene la flota completa, disponibilidad en tiempo real y reservas online.',
     button: 'Ir a rentacarpatagonia.com',
   },
+  torres: {
+    eyebrow: 'Tu próxima aventura',
+    title: 'Descubre Torres del Paine',
+    sub: 'Planifica tu visita al parque y encuentra inspiración para recorrer uno de los paisajes más increíbles de la Patagonia.',
+    button: 'Visita TorresdelPaine.com',
+  },
   footer: {
     tagline: 'Arriendo de autos en Puerto Natales y Punta Arenas, Patagonia chilena.',
     maps: 'Ver en Google Maps',
@@ -224,6 +230,12 @@ const en: Dict = {
     sub: 'Our main website has the full fleet, real-time availability and online booking.',
     button: 'Go to rentacarpatagonia.com',
   },
+  torres: {
+    eyebrow: 'Your next adventure',
+    title: 'Discover Torres del Paine',
+    sub: 'Plan your visit to the park and find inspiration for exploring one of Patagonia’s most incredible landscapes.',
+    button: 'Visit TorresdelPaine.com',
+  },
   footer: {
     tagline: 'Car rental in Puerto Natales and Punta Arenas, Chilean Patagonia.',
     maps: 'View on Google Maps',
@@ -334,6 +346,12 @@ const fr: Dict = {
     title: 'Réservez en ligne sur rentacarpatagonia.com',
     sub: 'Notre site principal présente toute la flotte, la disponibilité en temps réel et la réservation en ligne.',
     button: 'Aller sur rentacarpatagonia.com',
+  },
+  torres: {
+    eyebrow: 'Votre prochaine aventure',
+    title: 'Découvrez Torres del Paine',
+    sub: 'Préparez votre visite du parc et trouvez l’inspiration pour explorer l’un des plus beaux paysages de Patagonie.',
+    button: 'Visiter TorresdelPaine.com',
   },
   footer: {
     tagline: 'Location de voitures à Puerto Natales et Punta Arenas, Patagonie chilienne.',
@@ -446,6 +464,12 @@ const pt: Dict = {
     sub: 'Nosso site principal tem a frota completa, disponibilidade em tempo real e reservas online.',
     button: 'Ir para rentacarpatagonia.com',
   },
+  torres: {
+    eyebrow: 'Sua próxima aventura',
+    title: 'Descubra Torres del Paine',
+    sub: 'Planeje sua visita ao parque e encontre inspiração para explorar uma das paisagens mais incríveis da Patagônia.',
+    button: 'Visitar TorresdelPaine.com',
+  },
   footer: {
     tagline: 'Aluguel de carros em Puerto Natales e Punta Arenas, Patagônia chilena.',
     maps: 'Ver no Google Maps',
@@ -556,6 +580,12 @@ const zh: Dict = {
     title: '在 rentacarpatagonia.com 在线预订',
     sub: '我们的主站提供完整车队、实时空车查询和在线预订。',
     button: '前往 rentacarpatagonia.com',
+  },
+  torres: {
+    eyebrow: 'ä¸‹ä¸€æ¬¡å†’é™©',
+    title: 'æŽ¢ç´¢ Torres del Paine',
+    sub: 'è§„åˆ’å…¬å›­ä¹‹æ—…ï¼Œä¸ºæŽ¢ç´¢å·´å¡”å“¥å°¼äºšæœ€ä»¤äººéœ‡æ’¼çš„æ™¯è‰²ä¹‹ä¸€å¯»æ‰¾çµæ„Ÿã€‚',
+    button: 'è®¿é—® TorresdelPaine.com',
   },
   footer: {
     tagline: '智利巴塔哥尼亚纳塔莱斯港与蓬塔阿雷纳斯租车。',

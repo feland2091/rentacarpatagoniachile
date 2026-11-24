@@ -52,6 +52,7 @@ function Landing() {
         <Faq />
         <Contact vehicle={inquiry} onVehicle={setInquiry} />
         <FinalCta />
+        <TorresDelPaine />
       </main>
       <Footer />
 
@@ -464,11 +465,32 @@ function FinalCta() {
   )
 }
 
+function TorresDelPaine() {
+  const { t } = useI18n()
+  return (
+    <section className="relative isolate overflow-hidden bg-gradient-to-b from-ice via-white to-white px-5 py-20 text-center">
+      <div className="absolute inset-x-0 top-0 -z-10 h-56 bg-gradient-to-b from-lagoon/15 to-transparent" aria-hidden="true" />
+      <div className="mx-auto max-w-3xl">
+        <Eyebrow>{t.torres.eyebrow}</Eyebrow>
+        <h2 className="mt-3 font-display text-4xl font-semibold leading-tight text-navy md:text-5xl">{t.torres.title}</h2>
+        <p className="mx-auto mt-4 max-w-2xl text-lg text-navy/70">{t.torres.sub}</p>
+        <a href="https://torresdelpaine.com" target="_blank" rel="noopener noreferrer" className="mt-7 inline-flex items-center gap-2 rounded-full bg-navy px-6 py-3.5 font-bold text-white transition hover:bg-glacier">
+          {t.torres.button} <ExternalLink className="size-4" aria-hidden="true" />
+        </a>
+      </div>
+    </section>
+  )
+}
+
 function Footer() {
   const { t } = useI18n()
   return (
-    <footer className="bg-navy-deep text-white/70">
-      <div className="mx-auto flex max-w-7xl flex-col gap-8 px-5 py-12 md:flex-row md:items-start md:justify-between">
+    <footer className="relative overflow-hidden bg-navy-deep text-white/70">
+      <svg className="absolute inset-x-0 top-0 h-24 w-full text-glacier/30" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+        <path fill="currentColor" d="M0 120 150 55l78 35 130-70 112 73 115-48 102 58 137-82 119 77 106-55 135 61 104-45 152 41v120H0z" />
+        <path fill="#103b7a" d="m0 92 125-45 83 47 143-64 122 68 126-54 127 58 130-69 131 66 113-43 122 48 118-41 100 36v57H0z" />
+      </svg>
+      <div className="relative mx-auto flex max-w-7xl flex-col gap-8 px-5 pb-12 pt-28 md:flex-row md:items-start md:justify-between">
         <div className="max-w-sm">
           <img
             src={img('logo.png', 440)}
